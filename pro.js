@@ -1,7 +1,7 @@
 promise = new Promise((resolve,reject) =>{
   
 
-reject();
+reject();  // or call resolve()
 
 });
 
@@ -15,3 +15,5 @@ console.log("hello ");
 }).catch(()=>{
   console.log("failed");
 })
+
+// then and catch both are present ,state will come as resolve in either case 
